@@ -1,0 +1,50 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Debug/Lab1_completo.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab1_completo.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab1_completo.map</FILE>
+  <FILE>Lab1_completo.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>45</LINE></RESET>
+  <USART_INIT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>186</LINE></USART_INIT>
+  <PORTD_INIT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>171</LINE></PORTD_INIT>
+  <PROMPT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>266</LINE></PROMPT>
+  <SENDS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>108</LINE></SENDS>
+  <FOREVER><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>66</LINE></FOREVER>
+  <ESPERA_LIBERACAO><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>133</LINE></ESPERA_LIBERACAO>
+  <USART_RECEIVE><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>219</LINE></USART_RECEIVE>
+  <BOTTOM><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>84</LINE></BOTTOM>
+  <EQUAL_I><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>91</LINE></EQUAL_I>
+  <EQUAL_D><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>96</LINE></EQUAL_D>
+  <INCREMENTS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>144</LINE></INCREMENTS>
+  <DECREMENTS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>155</LINE></DECREMENTS>
+  <SENDS_REP><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>111</LINE></SENDS_REP>
+  <END_SENDS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>118</LINE></END_SENDS>
+  <USART_Transmit><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>203</LINE></USART_Transmit>
+  <ESPERA_LIBERADA><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>126</LINE></ESPERA_LIBERADA>
+  <WAIT_TRANSMIT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>206</LINE></WAIT_TRANSMIT>
+  <WAIT_RECEIVE><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>222</LINE></WAIT_RECEIVE>
+  <GO_TO_FOREVER><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>233</LINE></GO_TO_FOREVER>
+  <CARACTERE><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>278</LINE></CARACTERE>
+  <CONFIRMED_ORDER><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>237</LINE></CONFIRMED_ORDER>
+  <RESULT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>268</LINE></RESULT>
+  <PONTORTLF><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>272</LINE></PONTORTLF>
+  <RTLF><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab1_completo\Lab_Atmel\Lab1_completo\Lab1_completo.asm</FILE><LINE>270</LINE></RTLF>
+ </LABELS>
+</ASSEMBLER_INFO>
