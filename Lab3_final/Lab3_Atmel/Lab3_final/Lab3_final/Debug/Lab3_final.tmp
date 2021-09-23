@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Debug/Lab3_final.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab3_final.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab3_final.map</FILE>
+  <FILE>Lab3_final.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>41</LINE></RESET>
+  <VETOR_TIMER1_COMPA><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>36</LINE></VETOR_TIMER1_COMPA>
+  <TIMER1_COMPA_INTERRUPT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>203</LINE></TIMER1_COMPA_INTERRUPT>
+  <INIT_PORTS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>264</LINE></INIT_PORTS>
+  <USART0_INIT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>282</LINE></USART0_INIT>
+  <TIMER1_INIT_MODE4><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>333</LINE></TIMER1_INIT_MODE4>
+  <LOOP_PRINCIPAL><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>56</LINE></LOOP_PRINCIPAL>
+  <MensHello><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>382</LINE></MensHello>
+  <PRINT_USART0><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>232</LINE></PRINT_USART0>
+  <USART0_RECEIVE><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>317</LINE></USART0_RECEIVE>
+  <USART0_TRANSMIT><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>299</LINE></USART0_TRANSMIT>
+  <PularLinha><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>385</LINE></PularLinha>
+  <SET_ANGLE_PLUS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>102</LINE></SET_ANGLE_PLUS>
+  <SET_ANGLE_MINUS><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>135</LINE></SET_ANGLE_MINUS>
+  <LOOP><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>90</LINE></LOOP>
+  <SET_SERVE><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>172</LINE></SET_SERVE>
+  <SERVERZERO><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>181</LINE></SERVERZERO>
+  <SERVERONE><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>187</LINE></SERVERONE>
+  <SERVERTWO><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>193</LINE></SERVERTWO>
+  <PRINT_USART0_REP><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>240</LINE></PRINT_USART0_REP>
+  <FIM_PRINT_USART0><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>247</LINE></FIM_PRINT_USART0>
+  <WAIT_TRANSMIT0><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>302</LINE></WAIT_TRANSMIT0>
+  <WAIT_RECEIVE0><FILE>C:\Users\User\OneDrive\ITA\2021.2\EEA25\Lab3_final\Lab3_Atmel\Lab3_final\Lab3_final\Lab3_final.asm</FILE><LINE>320</LINE></WAIT_RECEIVE0>
+ </LABELS>
+</ASSEMBLER_INFO>
