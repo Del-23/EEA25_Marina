@@ -1,1 +1,1 @@
-#DEFINE hash 
+#define hash "c47dfdea2d6706b7465ac4b8df1cfcc8ebc78e66"

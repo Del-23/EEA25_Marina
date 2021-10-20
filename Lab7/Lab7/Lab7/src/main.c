@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <avr/interrupt.h>
 #include <string.h>
+#include "commit.h"
 
 #define F_CPU 16000000UL
 #include <util/delay.h>			// Aqui F_CPU é utilizada.
@@ -56,7 +57,7 @@ int main(void)
 
 		//IDENTIFICANDO O uC MASTER (PL7 EM ALTO)
 		if ((PINL >> 7) == 1){
-			fprintf(&usart0_str,"<hash> *** MASTER ***\n");
+			fprintf(&usart0_str,"%s *** MASTER ***\n", hash);
 			while(1){
 				DDRF= 0xff;
 				PORTF = 0x01; //ligando o LED do master em PF0
@@ -67,7 +68,7 @@ int main(void)
 		}
 	//IDENTIFICANDO O uC SLAVE (PL7 EM BAIXO)
 		if ((PINL >> 7) == 0){
-			fprintf(&usart0_str,"<hash> *** SLAVE ***\n");
+			fprintf(&usart0_str,"%s *** SLAVE ***\n", hash);
 			while(1){
 				comandoRecebidoDo_MASTER_Pelo_SLAVE(comando);
 				if (validacaoFeitaPelo_SLAVE(comando) == 1){
