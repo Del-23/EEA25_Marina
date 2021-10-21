@@ -193,11 +193,17 @@ void rodarServo(char *comando){
 	
 
 void acenderLED (char *comando){
-	if (comando[1] == '0'){
+	if (comando[1] == '0' && comando[3] == 'N'){
 		PORTH ^= (-1 ^ PORTH) & (1UL << 0);
 	}
-	if (comando[1] == '1'){
+	if (comando[1] == '0' && comando[3] == 'F'){
+		PORTH ^= (-0 ^ PORTH) & (1UL << 0);
+	}
+	if (comando[1] == '1' && comando[3] == 'N'){
 		PORTH ^= (-1 ^ PORTH) & (1UL << 1);
+	}
+	if (comando[1] == '1' && comando[3] == 'F'){
+		PORTH ^= (-0 ^ PORTH) & (1UL << 1);
 	}
 
 }
